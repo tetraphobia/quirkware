@@ -1,9 +1,10 @@
 {
   "name": "@quirkware/logger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "exports": {
     ".": "./mod.ts",
-    "./logger": "./logger.ts"
+    "./logger": "./logger.ts",
+    "./middleware": "./middleware.ts"
   },
   "imports": {
     "@oak/oak": "jsr:@oak/oak@^16.0.0",
