@@ -1,3 +1,7 @@
+/**
+ * A function that configures and returns middleware to be passed to Oak.
+ * @module
+ */
 import * as logger from "./logger.ts";
 import * as http from "@std/http";
 import type { Context, Middleware, Next } from "@oak/oak";

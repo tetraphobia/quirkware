@@ -1,3 +1,7 @@
+/**
+ * Logging functions called by the middleware.
+ * @module
+ */
 import * as colors from "@std/fmt/colors";
 
 /**
